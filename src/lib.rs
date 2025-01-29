@@ -15,8 +15,14 @@ mod tests {
     use super::*;
 
     #[test]
-    fn it_works() {
+    fn it_works_for_japanglish() {
+        let result = tragmog(&UnenglishMode::Japanglish);
+        assert_eq!(result, "=J");
+    }
+
+    #[test]
+    fn it_works_for_diacritical() {
         let result = tragmog(&UnenglishMode::Diacritical);
-        assert_eq!(result, "=K");
+        assert_eq!(result, "=D");
     }
 }
