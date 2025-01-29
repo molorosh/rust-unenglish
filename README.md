@@ -1,5 +1,11 @@
 A Rust crate to transmogrify English strings.
 
+## Examples
+
+The unenglish function has three modes:
+
+
+
 ## License
 
 Licensed under either of:

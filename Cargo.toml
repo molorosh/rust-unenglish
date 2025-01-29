@@ -2,5 +2,10 @@
 name = "unenglish"
 version = "0.1.0"
 edition = "2021"
+authors = ["Howard Ricketss <molorosh@gmail.com>"]
+description = "Transmogrify a English strings."
+repository = "https://github.com/molorosh/rust-unenglish"
+keywords = ["transform", "string"]
+license = "MIT OR Apache-2.0"
 
 [dependencies]
